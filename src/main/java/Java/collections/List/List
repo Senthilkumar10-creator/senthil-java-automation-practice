@@ -1,0 +1,45 @@
+
+ArrayList:
+
+* It is a class which implemented by list interface.
+* Heterogeneous data's are allowed.
+* Insertion order is preserved.
+* Duplicate elements are allowed.
+* It allows random access because the array list work on the index basis.
+* Multiple null values are allowed.
+
+
+LinkedList:
+
+* It is a class which implemented by list and queue interface.
+* Heterogeneous data's are allowed.
+* Insertion order is preserved.
+* Duplicate elements are allowed.
+* Insertion/deletion (manipulation) is fast because no shifting needs to occur.
+* Multiple null values are allowed.
+
+
+Difference: 
+
+ArrayList
+
+Underlying Array data structure
+Insertion/Deletion operations slower than LinkedList - O(N)
+Random access is faster than LinkedList
+Memory efficient - it only stores the objects in the list
+Memory Allocation - Contiguous memory is allocated
+
+
+LinkedList
+
+Underlying Doubly linked list data structure
+Insertion/Deletion operations faster than ArrayList - O(1)
+Random access is slower than ArrayList
+Memory inefficient - it only stores the object and pointers in the next and previous nodes.
+Memory Allocation - Contiguous memory is not allocated
+
+
+
+
+
+

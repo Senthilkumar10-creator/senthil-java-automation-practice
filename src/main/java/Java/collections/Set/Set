@@ -1,0 +1,46 @@
+
+HashSet:
+
+* It is a class which implemented by set interface.
+* Heterogeneous data's are allowed.
+* Insertion order is not preserved.
+* Duplicate elements are not allowed.
+* Multiple null values are not allowed, only single null is allowed.
+* HashSet stores the element using hashing mechanism.
+* HashSet is the best approach for search operations.
+
+
+
+Linked HashSet:
+
+* It is a class which implemented by set interface.
+* Heterogeneous data's are allowed.
+* Insertion order is preserved (by index).
+* Duplicate elements are not allowed.
+* Multiple null values are not allowed, only single null is allowed.
+* LinkedHashSet has a hashtable + linkedlist datastructure.
+
+
+Difference:
+
+HashSet:
+
+* It uses hashtable to store the elements.
+* Insertion order is not preserved.
+* It allows only one null value.
+* Less memory usage
+* Performance faster than linked hashset.
+* Extends Abstract class
+
+Linked HashSet:
+
+* It uses hashtable + doubly linkedlist to store the elements and maintain the insertion order of the elements.
+* Insertion order is preserved.
+* It allows only one null value.
+* requires more memory usage
+* Performance lower than HashSet
+* Extends HashSet class
+
+
+
+

@@ -1,0 +1,19 @@
+# Enforce LF for all text files
+* text=auto eol=lf
+
+# Treat these as text always
+*.java text
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.md text
+*.sh text
+
+# Binary files (never modify)
+*.jar binary
+*.war binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.pdf binary
