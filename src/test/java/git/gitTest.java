@@ -9,6 +9,9 @@ public class gitTest {
 
 		System.out.println("Git changes in remo repo");
 		
+		System.out.println("added line");
+		
+		
 	}
 
 	
